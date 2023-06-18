@@ -1,0 +1,84 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Holtwood+One+SC&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(255, 250, 250)
+}
+
+.counterMain {
+    margin : 4% 0%;
+}
+
+.counterMain h1 {
+    color :#924780;
+    font-size : 100px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.counterMain .counter {
+    width : 18%;
+    margin : 2% auto;
+    height : 34vh;
+    border-radius : 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgb(206, 206, 206);
+}
+
+.counterMain .counter h2 {
+    font-size : 86px;
+    padding-top : 14px;
+}
+
+.counter .setResetBtns {
+    display: flex;
+    margin : 0px 0px 25px 0px;
+    justify-content: space-around;
+}
+
+.setResetBtns .incrementBtn, .setResetBtns .decrementBtn {
+    width : 120px;
+    height : 40px;
+    color : #fff;
+    border : none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.setResetBtns .incrementBtn {
+    background-color: #a3cd39;
+}
+
+.setResetBtns .incrementBtn:hover {
+    background-color: #89b322;
+    cursor: pointer;
+}
+
+.setResetBtns .decrementBtn {
+    background-color: #f9605a;
+}
+
+.setResetBtns .decrementBtn:hover {
+    background-color: #cf4540;
+    cursor: pointer;
+}
+
+.counter .resetBtn {
+    width : 160px;
+    height : 40px;
+    color : #fff;
+    border : none;
+    border-radius: 6px;
+    font-size : 16px;
+    background-color: #04b5b9;
+}
+
+.counter .resetBtn:hover {
+    background-color: #059c9e;
+    cursor: pointer;
+}
